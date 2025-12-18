@@ -1,0 +1,3 @@
+{
+  "Policy": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"sqs:SendMessage\",\"Resource\":\"arn:aws:sqs:sa-east-1:000000000000:minha-fila\",\"Condition\":{\"ArnEquals\":{\"aws:SourceArn\":\"arn:aws:sns:sa-east-1:000000000000:send-message_notification\"}}}]}"
+}
