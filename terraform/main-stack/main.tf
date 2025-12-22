@@ -20,5 +20,6 @@ provider "aws" {
     sns = var.auth.endpoint_url
     sqs = var.auth.endpoint_url
     sts = var.auth.endpoint_url
+    dynamodb = var.auth.endpoint_url
   }
 }
