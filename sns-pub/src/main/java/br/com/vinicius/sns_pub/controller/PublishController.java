@@ -1,5 +1,6 @@
-package br.com.vinicius.sns_pub.controller.request;
+package br.com.vinicius.sns_pub.controller;
 
+import br.com.vinicius.sns_pub.controller.request.PublishRequest;
 import br.com.vinicius.sns_pub.service.SnsPublisherService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
